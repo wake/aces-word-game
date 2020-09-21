@@ -1,0 +1,33 @@
+
+
+/*
+ *
+ * Common
+ *
+ */
+@import "./global.scss";
+
+
+/*
+ *
+ * Layout
+ *
+ */
+@import "./layouts/base.scss";
+
+
+/*
+ *
+ * Partials
+ *
+ */
+@import "./partials/header.scss";
+@import "./partials/footer.scss";
+
+
+/*
+ *
+ * Pages
+ *
+ */
+.home { @import "./pages/index.scss"; }

@@ -1,0 +1,14 @@
+{
+  paths: {
+    data: 'src/markup/data',
+    decorators: 'src/markup/decorators',
+    helpers: 'src/markup/helpers',
+    layouts: 'src/markup/layouts',
+    partials: 'src/markup/partials'
+  },
+  hmrWatch: [
+    '*data',
+    '*decorators',
+    '*helpers',
+  ]
+}
